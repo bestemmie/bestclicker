@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1669328646 source:c:\users\leonf\programmazione\c++\bestclicker\main.cpp
+	<iostream>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<windows.h>
+	<time.h>
+	<math.h>
+	<string>
+	<pthread.h>
+

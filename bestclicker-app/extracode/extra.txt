@@ -1,0 +1,31 @@
+TextField(
+controller: ipcontroller,
+decoration: InputDecoration(
+hintText: 'CPS',
+hintStyle: TextStyle(
+fontFamily: 'Sono',
+fontWeight: FontWeight.normal,
+color: primary_color,
+),
+enabledBorder: new OutlineInputBorder(
+borderSide: new BorderSide(
+color: primary_color,
+),
+borderRadius: BorderRadius.all(Radius.circular(22)),
+),
+focusedBorder: new OutlineInputBorder(
+borderSide: new BorderSide(
+color: primary_color,
+),
+borderRadius: BorderRadius.all(Radius.circular(22)),
+),
+),
+onChanged: (text) {
+setState(() {
+cps = text;
+//you can access nameController in its scope to get
+// the value of text entered as shown below
+//fullName = nameController.text;
+});
+},
+),

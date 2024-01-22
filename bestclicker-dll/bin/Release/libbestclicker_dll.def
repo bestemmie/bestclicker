@@ -1,0 +1,7 @@
+EXPORTS
+    AbortPaint @1
+    DllMain @2
+    SetDelay @3
+    StartDialog @4
+    StartPaint @5
+    StopPaint @6
